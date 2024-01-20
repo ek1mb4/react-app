@@ -4,7 +4,7 @@ import {ListGroup} from "./componentes/ListGroup/ListGroup.tsx";
 function App() {
   return (
     <>
-      <div className="max-w-6xl mx-auto p-20">
+      <div className="max-w-4xl mx-auto p-20">
           <ListGroup/>
       </div>
     </>

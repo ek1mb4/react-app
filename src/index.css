@@ -9,6 +9,18 @@
   .list-item {
     @apply grid grid-cols-12 bg-white shadow p-2 rounded-lg mb-1 cursor-pointer;
   }
+
+  .alert {
+    @apply shadow-lg bg-white absolute w-96 right-10 top-10 rounded-lg border-l-4 border-amber-500 text-xs transition-all;
+  }
+
+  .alert-close {
+    @apply absolute rounded-full h-10 w-10 shadow -right-2 -top-3 flex items-center justify-center bg-white;
+  }
+
+  .alert-title {
+    @apply text-lg mb-3 text-indigo-600;
+  }
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
