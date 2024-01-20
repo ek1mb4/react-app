@@ -1,6 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  input[type='date'],
+  input[type='password'],
+  select {
+    @apply border rounded bg-white block px-3 py-1
+  }
+  label {
+    @apply font-medium text-sm
+  }
+}
+
 @layer utilities {
   .list-header {
     @apply grid grid-cols-12 bg-indigo-950 text-white mb-3 shadow p-2 rounded-lg gap-4;
@@ -23,10 +38,9 @@
   }
 }
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Plus Jakarta Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
+font-weight: 300;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;

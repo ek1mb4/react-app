@@ -1,12 +1,13 @@
 import './App.css'
-import {ListGroup} from "./componentes/ListGroup/ListGroup.tsx";
+import {Tracker} from "./pages/ExpenseTracker/Tracker.tsx";
+
 
 function App() {
   return (
     <>
-      <div className="max-w-4xl mx-auto p-20">
-          <ListGroup/>
-      </div>
+      <main className="max-w-4xl mx-auto p-20">
+         <Tracker />
+      </main>
     </>
   )
 }
