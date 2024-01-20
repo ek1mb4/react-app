@@ -1,3 +1,5 @@
+import {BtnListItem} from "./BtnListItem.tsx";
+
 export function ListItem({goal, index, changeIndex, selectedIndex}) {
     return  (
         <div key={goal.id}
@@ -6,11 +8,15 @@ export function ListItem({goal, index, changeIndex, selectedIndex}) {
             <div className={'col-span-1'}>
                  {goal.id}
             </div>
-            <div className={'col-span-10'}>
+            <div className={'col-span-8'}>
                 {goal.goal}
             </div>
             <div className={'col-span-1 text-center'}>
                 {goal.year}
+            </div>
+            <div className={'col-span-2 text-center'}>
+                <BtnListItem>❌ ✅</BtnListItem>
+                {goal.done ? '✅':''}
             </div>
         </div>
     );

@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   .list-header {
-    @apply grid grid-cols-12 bg-indigo-950 text-white mb-3 shadow p-2 rounded-lg;
+    @apply grid grid-cols-12 bg-indigo-950 text-white mb-3 shadow p-2 rounded-lg gap-4;
   }
 
   .list-item {
