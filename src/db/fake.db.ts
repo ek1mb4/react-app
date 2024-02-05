@@ -17,3 +17,29 @@ export const goalsList: Free[] = [
         year: 2024
     }
 ]
+
+
+export const categories = [
+    {
+        id: 1,
+        category: 'Groceries'
+    },
+    {
+        id: 2,
+        category: 'Utilities'
+    },
+    {
+        id: 3,
+        category: 'Entertainment'
+    },
+    {
+        id: 4,
+        category: 'Clothes'
+    },
+    {
+        id: 5,
+        category: 'Housing'
+    }
+]
+
+export default {categories, goalsList}

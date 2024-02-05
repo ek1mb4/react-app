@@ -1,12 +1,12 @@
 import './App.css'
-import {Tracker} from "./pages/ExpenseTracker/Tracker.tsx";
+import {TrackForm} from "./pages/ExpenseTracker/TrackForm.tsx";
 
 
 function App() {
   return (
     <>
       <main className="max-w-4xl mx-auto p-20">
-         <Tracker />
+         <TrackForm />
       </main>
     </>
   )

@@ -9,10 +9,10 @@
   input[type='date'],
   input[type='password'],
   select {
-    @apply border rounded bg-white block px-3 py-1
+    @apply border border-indigo-300 rounded-lg bg-white block px-3 py-3 w-full text-sm
   }
   label {
-    @apply font-medium text-sm
+    @apply font-semibold text-indigo-900 text-sm mb-2 block
   }
 }
 
@@ -35,6 +35,14 @@
 
   .alert-title {
     @apply text-lg mb-3 text-indigo-600;
+  }
+
+  .error {
+    @apply text-red-500 text-sm py-1;
+  }
+
+  .heading {
+    @apply leading-4 font-bold text-indigo-800 mb-3 text-xl
   }
 }
 :root {

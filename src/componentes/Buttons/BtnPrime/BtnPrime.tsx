@@ -1,8 +1,8 @@
 import styles from "./BtnPrime.module.css";
-export function BtnPrime({children}) {
+export function BtnPrime({children, disabled}) {
     return (
         <>
-        <button className={styles.btnPrime}>
+        <button disabled={disabled} className={styles.btnPrime}>
             {children}
         </button></>
     );
